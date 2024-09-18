@@ -4,18 +4,25 @@
 #include <cctype>
 using namespace std;
 
+//Primary functions
 int main() {
+
+    //intitialization of string variable
     string var;
-    int indexes[128] = {0}; // array to store frequency of each character
 
-    // Input a string
+    //Integer variable which will store the the times a character appears
+    int indexes[128] = {0}; 
+
+    // Tells User to Input a string
     cout << "Please enter a string: ";
-    getline(cin, var); // safely read input string
 
-    // Convert the string to uppercase
+    //Reads input from user and stores it in the string variable, var. getline is a function for inputs from the string library.
+    getline(cin, var); 
+
+    // Convert the string to uppercase. This makes for easier counting later.
     transform(var.begin(), var.end(), var.begin(), ::toupper);
 
-    // Count the frequency of each character
+    // Count the the occurance of each character
     for (char c : var) {
         indexes[(int)c] += 1;
     }
