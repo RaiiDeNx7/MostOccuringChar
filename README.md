@@ -13,11 +13,11 @@ hello > l 2
 
 
 # Installing C/C++ with MSYS2 (If needed)
-- 1. Download App
-- 2. Run 2 commands in that terminal
-- 3. Change Environ variable
+1. Download App
+2. Run 2 commands in that terminal
+3. Change Environ variable
 
 # How to run the file
-- 1. Change Directory to MostOccuringChar folder. (Ex:)
+1. Change Directory to MostOccuringChar folder. (Ex:)
 
 # Test Cases
