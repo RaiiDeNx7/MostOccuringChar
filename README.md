@@ -3,12 +3,12 @@
 Write a program where a user inputs a string and the application prints the
 character that occurs most often.
 hello > l 2
-# Procedure
-- [X] 1. ask user for string
-2. iterate over each character
-   add a counter for each character
-3. find character with highest counter
-4. print character
+# Program Tasks
+1. Ask user for string
+2. Iterate over each character
+   - Add a counter for each character
+3. Find character with highest counter
+4. Print character
 
 # Check if you have a C++ compiler installed
 **Run this command in terminal to check if C++ compiler is installed**
@@ -37,7 +37,7 @@ hello > l 2
  g++ --version
 ```
 
-# How to Run
+# How to Run Program
 **1. Open Terminal**
 
 **2. Change Directory to MostOccuringChar folder**
@@ -54,4 +54,8 @@ cd Users\Break\Programming Languages CSCI 485\MostOccuringChar
  Linux -> "./a.out"
 ```
 
-# Test Cases
+# Running Test Cases
+**1. Install Google Test**
+```
+g++ -o testing testing.cpp main.cpp -lgtest -lgtest_main -pthread ./testing
+```

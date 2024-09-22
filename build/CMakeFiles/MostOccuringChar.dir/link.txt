@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libMostOccuringChar.a CMakeFiles/MostOccuringChar.dir/main.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libMostOccuringChar.a
