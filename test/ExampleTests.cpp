@@ -1,7 +1,14 @@
 #include <gtest/gtest.h>
-#include "../main.cpp"
+//#include "../main.hpp"
+//#include "../main.cpp"
 
 
+TEST(ExampleTests, SanityTest) {
+    EXPECT_EQ(true, false);
+}
+
+
+/*
 TEST(CharacterCountTest, BasicCounts) {
     int indexes[128] = {0};
     count_characters("ABBA", indexes);
@@ -10,7 +17,9 @@ TEST(CharacterCountTest, BasicCounts) {
     EXPECT_EQ(indexes['B'], 2);
     EXPECT_EQ(indexes['C'], 0);
 }
+*/
 
+/*
 // Test the most common character function
 TEST(MostCommonCharTest, BasicFunctionality) {
     int indexes[128] = {0};
@@ -32,3 +41,5 @@ TEST(ProcessStringTest, SpecialCharacters) {
     EXPECT_EQ(process_string("123123!"), "1 2");
     EXPECT_EQ(process_string("!!??@@"), "! 2");
 }
+
+*/

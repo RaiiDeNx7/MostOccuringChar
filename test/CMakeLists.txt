@@ -1,6 +1,6 @@
 cmake_Minimum_required(VERSION 3.30.3)
 
-set(This Example)
+set(This ExampleTests)
 
 set(Sources
     ExampleTests.cpp

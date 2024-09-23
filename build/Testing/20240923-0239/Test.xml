@@ -6,29 +6,29 @@
 	CompilerName=""
 	CompilerVersion=""
 	OSName="Windows"
-	Hostname="DESKTOP-0KN0L2A"
+	Hostname="RaiiDeNx7"
 	OSRelease=" Personal"
-	OSVersion=" (Build 19045)"
+	OSVersion=" (Build 22631)"
 	OSPlatform="AMD64"
 	Is64Bits="1"
 	VendorString="GenuineIntel"
 	VendorID="Intel Corporation"
 	FamilyID="6"
-	ModelID="14"
+	ModelID="12"
 	ProcessorCacheSize="-1"
 	NumberOfLogicalCPU="8"
-	NumberOfPhysicalCPU="8"
-	TotalVirtualMemory="26540"
-	TotalPhysicalMemory="16300"
-	LogicalProcessorsPerPhysical="1"
-	ProcessorClockFrequency="3600"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="20775"
+	TotalPhysicalMemory="7975"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2419"
 	>
 	<Testing>
-		<StartDateTime>Sep 22 22:39 Eastern Daylight Time</StartDateTime>
-		<StartTestTime>1727059199</StartTestTime>
+		<StartDateTime>Sep 23 13:05 Eastern Daylight Time</StartDateTime>
+		<StartTestTime>1727111154</StartTestTime>
 		<TestList/>
-		<EndDateTime>Sep 22 22:39 Eastern Daylight Time</EndDateTime>
-		<EndTestTime>1727059199</EndTestTime>
+		<EndDateTime>Sep 23 13:05 Eastern Daylight Time</EndDateTime>
+		<EndTestTime>1727111154</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

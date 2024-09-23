@@ -171,25 +171,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/Example.dir/rule:
-	cd /d C:\Users\Break\ONEDRI~1\Classes\Fall24\PROGRA~1\MOSTOC~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/Example.dir/rule
-.PHONY : test/CMakeFiles/Example.dir/rule
+test/CMakeFiles/ExampleTests.dir/rule:
+	cd /d C:\Users\Break\ONEDRI~1\Classes\Fall24\PROGRA~1\MOSTOC~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test/CMakeFiles/ExampleTests.dir/rule
+.PHONY : test/CMakeFiles/ExampleTests.dir/rule
 
 # Convenience name for target.
-Example: test/CMakeFiles/Example.dir/rule
-.PHONY : Example
+ExampleTests: test/CMakeFiles/ExampleTests.dir/rule
+.PHONY : ExampleTests
 
 # fast build rule for target.
-Example/fast:
-	cd /d C:\Users\Break\ONEDRI~1\Classes\Fall24\PROGRA~1\MOSTOC~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\Example.dir\build.make test/CMakeFiles/Example.dir/build
-.PHONY : Example/fast
+ExampleTests/fast:
+	cd /d C:\Users\Break\ONEDRI~1\Classes\Fall24\PROGRA~1\MOSTOC~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\ExampleTests.dir\build.make test/CMakeFiles/ExampleTests.dir/build
+.PHONY : ExampleTests/fast
 
 ExampleTests.obj: ExampleTests.cpp.obj
 .PHONY : ExampleTests.obj
 
 # target to build an object file
 ExampleTests.cpp.obj:
-	cd /d C:\Users\Break\ONEDRI~1\Classes\Fall24\PROGRA~1\MOSTOC~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\Example.dir\build.make test/CMakeFiles/Example.dir/ExampleTests.cpp.obj
+	cd /d C:\Users\Break\ONEDRI~1\Classes\Fall24\PROGRA~1\MOSTOC~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\ExampleTests.dir\build.make test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.obj
 .PHONY : ExampleTests.cpp.obj
 
 ExampleTests.i: ExampleTests.cpp.i
@@ -197,7 +197,7 @@ ExampleTests.i: ExampleTests.cpp.i
 
 # target to preprocess a source file
 ExampleTests.cpp.i:
-	cd /d C:\Users\Break\ONEDRI~1\Classes\Fall24\PROGRA~1\MOSTOC~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\Example.dir\build.make test/CMakeFiles/Example.dir/ExampleTests.cpp.i
+	cd /d C:\Users\Break\ONEDRI~1\Classes\Fall24\PROGRA~1\MOSTOC~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\ExampleTests.dir\build.make test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.i
 .PHONY : ExampleTests.cpp.i
 
 ExampleTests.s: ExampleTests.cpp.s
@@ -205,7 +205,7 @@ ExampleTests.s: ExampleTests.cpp.s
 
 # target to generate assembly for a file
 ExampleTests.cpp.s:
-	cd /d C:\Users\Break\ONEDRI~1\Classes\Fall24\PROGRA~1\MOSTOC~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\Example.dir\build.make test/CMakeFiles/Example.dir/ExampleTests.cpp.s
+	cd /d C:\Users\Break\ONEDRI~1\Classes\Fall24\PROGRA~1\MOSTOC~1\build && $(MAKE) $(MAKESILENT) -f test\CMakeFiles\ExampleTests.dir\build.make test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.s
 .PHONY : ExampleTests.cpp.s
 
 # Help Target
@@ -221,7 +221,7 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... Example
+	@echo ... ExampleTests
 	@echo ... ExampleTests.obj
 	@echo ... ExampleTests.i
 	@echo ... ExampleTests.s
