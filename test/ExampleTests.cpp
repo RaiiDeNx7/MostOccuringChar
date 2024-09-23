@@ -1,9 +1,6 @@
 #include <gtest/gtest.h>
 #include "../main.cpp"
 
-TEST(ExampleTests, DemonstrateGTestMacros){
-    EXPECT_EQ(true, true);
-}
 
 TEST(CharacterCountTest, BasicCounts) {
     int indexes[128] = {0};
@@ -35,4 +32,3 @@ TEST(ProcessStringTest, SpecialCharacters) {
     EXPECT_EQ(process_string("123123!"), "1 2");
     EXPECT_EQ(process_string("!!??@@"), "! 2");
 }
-

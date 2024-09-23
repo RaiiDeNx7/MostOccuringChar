@@ -57,7 +57,7 @@ int main(int argc, char* argv[]) {
 
     // Tells User to Input a string
     //cout << "Please enter a string: ";
-    getline(cin, var);
+    //getline(cin, var);
 
     // Process the string and print the result
     cout << process_string(var) << endl;

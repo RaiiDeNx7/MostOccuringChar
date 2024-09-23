@@ -50,11 +50,11 @@ cd Users\Break\Programming Languages CSCI 485\MostOccuringChar
 ```
 **4. Execute the files with the commands:**
 ```
- Windows -> "a.exe" 
- Linux -> "./a.out"
+ Windows -> "a.exe [expression to enter]" 
+ Linux -> "./a.out [expression to enter]"
 ```
 
-# Running Test Cases
+# Running Test Cases (CMake/GoogleTest)
 **1. Install Google Test**
 ```
 g++ -o testing testing.cpp main.cpp -lgtest -lgtest_main -pthread ./testing
