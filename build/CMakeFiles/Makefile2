@@ -280,8 +280,8 @@ googletest/googletest/CMakeFiles/gtest_main.dir/clean:
 
 # All Build rule for target.
 test/CMakeFiles/ExampleTests.dir/all: CMakeFiles/MostOccuringChar.dir/all
-test/CMakeFiles/ExampleTests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 test/CMakeFiles/ExampleTests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
+test/CMakeFiles/ExampleTests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\ExampleTests.dir\build.make test/CMakeFiles/ExampleTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f test\CMakeFiles\ExampleTests.dir\build.make test/CMakeFiles/ExampleTests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Break\OneDrive - Virginia State University\Classes\Fall24\Programming Languages CSCI 485\MostOccuringChar\build\CMakeFiles" --progress-num=1,2 "Built target ExampleTests"

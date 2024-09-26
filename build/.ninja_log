@@ -1,5 +1,5 @@
 # ninja log v6
-6	446	7487642135251169	build.ninja	e14abd591f2d440f
+6	446	7489015565234430	build.ninja	e14abd591f2d440f
 342	437	7487636836130380	libMostOccuringChar.a	188e7108e0401bf1
 19	341	7487636832893118	CMakeFiles/MostOccuringChar.dir/main.cpp.obj	b66ffd5126108065
 21	961	7487631537224077	test/CMakeFiles/Example.dir/ExampleTests.cpp.obj	6a8a9b1779c82234
@@ -10,9 +10,7 @@
 20	9438	7487625446186723	googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	a6aec6d3595a66b4
 9651	9756	7487625542489512	lib/libgtest_main.a	2a6d366f4833aa2b
 9645	9778	7487625542429673	lib/libgmock.a	d9b70c034b2e24b9
-958	1301	7487641931928690	test/ExampleTests.exe	ef0313289962d2c6
+901	1276	7487642169691123	test/ExampleTests.exe	ef0313289962d2c6
 9778	9902	7487625543758906	lib/libgmock_main.a	984565287943b19f
 963	1302	7487631546631798	test/Example.exe	9fc721ec3dea859a
-20	958	7487641922538088	test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.obj	6d0d64948b807d30
 19	900	7487642160876998	test/CMakeFiles/ExampleTests.dir/ExampleTests.cpp.obj	6d0d64948b807d30
-901	1276	7487642169691123	test/ExampleTests.exe	ef0313289962d2c6
